@@ -22,7 +22,7 @@ def auto_canny(image, sigma=0.33):
 def main():
 	iter = 0
 	sav = sys.argv[2] #Destination folder
-	imgpath = sys.argv[1]' #Source folder
+	imgpath = sys.argv[1] #Source folder
 	imgs = [f for f in listdir(imgpath) if isfile(join(imgpath, f))]
 
 	for i in range(0,len(imgs)):
